@@ -12,6 +12,8 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		System.out.println("ChatLoader started up !");
+		getServer().getPluginManager().registerEvents(new Event(), this);
+		getServer().getPluginManager().registerEvents(new Chatlistener(), this);
 	}
 	
 	@Override
