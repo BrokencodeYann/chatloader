@@ -21,7 +21,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("ez")){
             e.setMessage("GG");
-            p.sendMessage("§4Veuillez respecter les autres joueurs !");
+            p.sendMessage("Â§4Veuillez respecter les autres joueurs !");
         }
     }
 	
@@ -33,7 +33,7 @@ public class Chatlistener implements Listener {
 		if(e.getMessage().equalsIgnoreCase("e z")) {
 			e.setMessage("GG");
 			
-			p.sendMessage("§4Veuillez respecter les autres joueurs !");
+			p.sendMessage("Â§4Veuillez respecter les autres joueurs !");
 		}
 	}
 	
@@ -43,8 +43,8 @@ public class Chatlistener implements Listener {
 		Player p = e.getPlayer();
 		
 		if(e.getMessage().equalsIgnoreCase("facile")){
-			e.setMessage("Bien joué");
-			p.sendMessage("§4Veuillez respecter les autres joueurs !");
+			e.setMessage("Bien jouÃ©");
+			p.sendMessage("Â§4Veuillez respecter les autres joueurs !");
 		}
 	}
 	
@@ -53,9 +53,9 @@ public class Chatlistener implements Listener {
 		
 		Player p = e.getPlayer();
 		
-		if(e.getMessage().equalsIgnoreCase("ta mère")){
-			e.setMessage("ma mère");
-			p.sendMessage("§4évitez d'envoyer des insultes si vous voulez éviter un ban");
+		if(e.getMessage().equalsIgnoreCase("ta mÃ¨re")){
+			e.setMessage("ma mÃ¨re");
+			p.sendMessage("Â§4Ã©vitez d'envoyer des insultes si vous voulez Ã©viter un ban");
 		}
 	}
 	
@@ -66,7 +66,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("ta gueule")){
 			e.setMessage("mais heuu");
-			p.sendMessage("§4évitez d'envoyer des insultes si vous voulez éviter le ban");
+			p.sendMessage("Â§4Ã©vitez d'envoyer des insultes si vous voulez Ã©viter le ban");
 		}
 	}
 	@EventHandler
@@ -76,7 +76,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("pd")){
 			e.setMessage("je suis homosexuel");
-			p.sendMessage("§4évitez les insultes sur le serveur si vous voulez éviter un ban !");
+			p.sendMessage("Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban !");
 		}
 	}
 	@EventHandler
@@ -86,7 +86,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("fdp")){
 			e.setMessage("je suis un fdp");
-			p.sendMessage("§4évitez les insultes sur le serveur si vous voulez éviter un ban !");
+			p.sendMessage("Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban !");
 		}
 	}
 	@EventHandler
@@ -95,8 +95,8 @@ public class Chatlistener implements Listener {
 		Player p = e.getPlayer();
 		
 		if(e.getMessage().equalsIgnoreCase("battard")){
-			e.setMessage("Désolé :)");
-			p.sendMessage("§4évitez les insultes sur le serveur si vous voulez éviter un ban !");
+			e.setMessage("DÃ©solÃ© :)");
+			p.sendMessage("Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban !");
 		}
 	}
 	@EventHandler
@@ -106,7 +106,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("sale pute")){
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("§4évitez les insultes sur le serveur si vous voulez éviter un ban !");
+			p.sendMessage("Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban !");
 		}
 	}
 	@EventHandler
@@ -116,7 +116,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("grosse pute")){
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("§4évitez les insultes sur le serveur si vous voulez éviter un ban !");
+			p.sendMessage("Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban !");
 		}
 	}
 	@EventHandler
@@ -126,7 +126,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("fils de pute")){
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("§4évitez les insultes sur le serveur si vous voulez éviter un ban !");
+			p.sendMessage("Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban !");
 		}
 	}
 	@EventHandler
@@ -136,7 +136,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("pute")) {
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("§4évitez les insultes sur le serveur si vous voulez éviter un ban !");
+			p.sendMessage("Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban !");
 		}
 	}
 	@EventHandler
@@ -146,7 +146,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("salope")) {
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -156,7 +156,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("putes")) {
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -166,7 +166,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("nul")) {
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -176,7 +176,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("t nul")) {
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -186,7 +186,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("tu pue")) {
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -196,7 +196,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("tu pues")) {
 			e.setMessage("[Insulte removed]");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -206,7 +206,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("easy")) {
 			e.setMessage("gg");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -216,7 +216,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("easy win")) {
 			e.setMessage("gg");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -226,7 +226,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("e_z")) {
 			e.setMessage("gg");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -236,7 +236,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("e.z")) {
 			e.setMessage("gg");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -246,7 +246,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("e-z")) {
 			e.setMessage("gg");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	
@@ -257,7 +257,7 @@ public class Chatlistener implements Listener {
 		
 		if(e.getMessage().equalsIgnoreCase("ez.")) {
 			e.setMessage("gg");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	
@@ -270,7 +270,7 @@ public class Chatlistener implements Listener {
             int seconds = 3;
             long timeleft = ((cooldowns.get(player.getName()) / 1000) + seconds) - (System.currentTimeMillis() / 1000);
             if(timeleft > 0){
-                player.sendMessage("§cTu dois encore attendre §a" + timeleft + "§c secondes !");
+                player.sendMessage("Â§cTu dois encore attendre Â§a" + timeleft + "Â§c secondes !");
                 event.setCancelled(true);
                 return;
             }
@@ -285,9 +285,9 @@ public class Chatlistener implements Listener {
 		
 		Player p = e.getPlayer();
 		
-		if(e.getMessage().equalsIgnoreCase("ta-mère")) {
-			e.setMessage("ma mère");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+		if(e.getMessage().equalsIgnoreCase("ta-mÃ¨re")) {
+			e.setMessage("ma mÃ¨re");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -295,9 +295,9 @@ public class Chatlistener implements Listener {
 		
 		Player p = e.getPlayer();
 		
-		if(e.getMessage().equalsIgnoreCase("ta.mère")) {
-			e.setMessage("ma mère");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+		if(e.getMessage().equalsIgnoreCase("ta.mÃ¨re")) {
+			e.setMessage("ma mÃ¨re");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -305,9 +305,9 @@ public class Chatlistener implements Listener {
 		
 		Player p = e.getPlayer();
 		
-		if(e.getMessage().equalsIgnoreCase("tamère")) {
-			e.setMessage("ma mère");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+		if(e.getMessage().equalsIgnoreCase("tamÃ¨re")) {
+			e.setMessage("ma mÃ¨re");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	
@@ -317,8 +317,8 @@ public class Chatlistener implements Listener {
 		Player p = e.getPlayer();
 		
 		if(e.getMessage().equalsIgnoreCase("ta mere")) {
-			e.setMessage("ma mère");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			e.setMessage("ma mÃ¨re");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
 	@EventHandler
@@ -327,8 +327,8 @@ public class Chatlistener implements Listener {
 		Player p = e.getPlayer();
 		
 		if(e.getMessage().equalsIgnoreCase("ta.mere")) {
-			e.setMessage("ma mère");
-			p.sendMessage("|| §4évitez les insultes sur le serveur si vous voulez éviter un ban ! §f||");
+			e.setMessage("ma mÃ¨re");
+			p.sendMessage("|| Â§4Ã©vitez les insultes sur le serveur si vous voulez Ã©viter un ban ! Â§f||");
 		}
 	}
-}
+} // BY TWEEKLG
